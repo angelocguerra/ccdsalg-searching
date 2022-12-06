@@ -7,13 +7,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Main {
-
+public class Main
+{
     static int collisionCount = 0;
     static int collisionCount2 = 0;
 
-    public static void main(String[] args) throws NoSuchAlgorithmException {
-
+    public static void main(String[] args) throws NoSuchAlgorithmException
+    {
         Scanner scan = new Scanner(System.in);
         Scanner scan2 = new Scanner(System.in);
         int userInput, numChar, k, hash;
@@ -26,7 +26,8 @@ public class Main {
         userInput = scan.nextInt();
         scan.nextLine();
 
-        switch (userInput){
+        switch (userInput)
+        {
             case 1:
                 System.out.println("Enter the number of characters in the DNA Sequence: ");
                 numChar = scan2.nextInt();
@@ -41,7 +42,8 @@ public class Main {
                 scan2.nextLine();
                 DNA = dnaRandomizer(numChar);
                 System.out.println(DNA);
-                switch (hash){
+                switch (hash)
+                {
                     case 1:
                         printSubstringsHT(createSubstringsHTMD5(DNA, k));
                         System.out.println("Collision count: " + collisionCount);
@@ -72,12 +74,14 @@ public class Main {
         }
     }
 
-    private static String dnaRandomizer(int n){
+    private static String dnaRandomizer(int n)
+    {
         StringBuilder DNA = new StringBuilder("2"); int num;
         Random rand = new Random();
         int upperBound = 4;
         num = rand.nextInt(upperBound);
-        switch (num) {
+        switch (num)
+        {
             case (0) -> DNA = new StringBuilder("a");
             case (1) -> DNA = new StringBuilder("c");
             case (2) -> DNA = new StringBuilder("g");
