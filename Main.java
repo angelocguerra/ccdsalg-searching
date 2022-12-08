@@ -100,7 +100,8 @@ public class Main
         return DNA.toString();
     }
 
-    private static String bytesToHex(byte[] hash){
+    private static String bytesToHex(byte[] hash)
+    {
         StringBuilder hexString = new StringBuilder(2 * hash.length);
         for (byte b : hash)
         {
