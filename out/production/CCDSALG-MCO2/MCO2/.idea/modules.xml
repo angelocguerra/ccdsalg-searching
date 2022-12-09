@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CCDSALG-MCO2.iml" filepath="$PROJECT_DIR$/CCDSALG-MCO2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MCO2.iml" filepath="$PROJECT_DIR$/MCO2.iml" />
     </modules>
   </component>
 </project>
