@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Main
+public class MCO2
 {
     static int collisionCount = 0;
     static int collisionCount2 = 0;
