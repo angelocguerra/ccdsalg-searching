@@ -44,7 +44,8 @@ public class MCO2
                 scan2.nextLine();
                 DNA = dnaRandomizer(numChar);
                 System.out.println(DNA);
-                switch (hash){
+                switch (hash)
+                {
                     case 1:
                         printSubstringsHT(createSubstringsHTMD5(DNA, k));
                         System.out.println("Collision count: " + collisionCount);
