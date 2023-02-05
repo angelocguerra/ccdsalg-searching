@@ -1,4 +1,4 @@
-# CCDSALG-MCO2
+# ccdsalg-searching
 **CCDSALG Major Course Output 2: Searching Project**
 
 A command-line implementation of a Hash Table-based algorithm, Binary Search Tree data structure, and Binary Search Tree-based k-mer distribution algorithm of a DNA Sequence
